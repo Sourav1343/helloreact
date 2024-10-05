@@ -1,0 +1,47 @@
+.home-container {
+  text-align: center;
+  padding: 2rem;
+}
+
+.home-container h1 {
+  font-size: 2.5rem;
+  color: #4CAF50;
+  margin-bottom: 1rem;
+}
+
+.home-container p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.home-buttons {
+  margin-top: 1.5rem;
+}
+
+.btn-primary, .btn-secondary {
+  padding: 0.8rem 1.5rem;
+  border-radius: 5px;
+  font-size: 1rem;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.btn-primary {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #45a049;
+}
+
+.btn-secondary {
+  background-color: #008CBA;
+  color: white;
+  border: none;
+}
+
+.btn-secondary:hover {
+  background-color: #007bb5;
+}

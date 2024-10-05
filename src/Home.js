@@ -1,24 +1,15 @@
-// src/Home.js
 import React from 'react';
-import logo from './logo.svg';
+import './Style/Home.css';
 
 function Home() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="home-container">
+      <h1>Welcome to My React Learning App</h1>
+      <p>Explore React components, routing, and learn how to develop with a clean architecture!</p>
+      <div className="home-buttons">
+        <button className="btn-primary">Learn Components</button>
+        <button className="btn-secondary">Get Started</button>
+      </div>
     </div>
   );
 }
