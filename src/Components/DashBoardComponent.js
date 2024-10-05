@@ -1,7 +1,6 @@
 // src/DashboardComponent.js
 import React from 'react';
-//import '../DashBoardComponent.css'
-//import '../DashBoardComponent'; // New CSS for Dashboard
+import '../Style/DashboardComponent.css'; // New CSS for Dashboard
 
 function DashboardComponent() {
   return (
